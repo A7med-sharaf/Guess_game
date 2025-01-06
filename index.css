@@ -243,8 +243,8 @@ footer p{
         margin-top: 38px;
     }
     body{
-        border: 1px solid red;
-        height:306vh;
+        /* border: 1px solid red; */
+        height:100vh;
         object-fit: cover;
         background-position-x: center;
     }
