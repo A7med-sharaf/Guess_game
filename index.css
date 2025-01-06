@@ -1,0 +1,347 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 170vh;
+    background-image: url(./photo/Preview\ and\ Download\ Wallpaper\ -\ HD\ Wallpapers\ -\ Desktop\ Background\ Images.png);
+    background-size: cover;
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+form{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    gap: 40px;
+}
+
+form .box1{
+width: 100%;
+height: 200vh;
+/* border: 1px solid red; */
+background-color: rgb(199 216 198);
+border-radius: 3px;
+
+}
+section{
+    /* border: 1px solid blue; */
+    width: 24%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+   
+}
+
+.box1 table{
+    border: 1px solid darkcyan;
+    
+}
+
+.box1 table  tr, th{
+    font-size: 2rem;
+
+     
+}
+
+.flex1{
+    /* border: 1px solid rgb(255, 0, 195); */
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+#btn{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 44px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#btn:hover{
+    background-color: rgb(199 216 198);
+    color: white;
+}
+.check_button{
+    height: 17vh;
+}
+
+.navbar{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar i{
+    font-size: 28px;
+    color: rgb(199 216 198);
+    cursor: pointer;
+}
+#value{
+font-size: 48px;
+}
+
+/*start inddx2 */
+.container{
+    /* border: 1px solid red; */
+    height: 100vh    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+    
+}
+.container h1{
+    letter-spacing: 18.4px;
+    font-size: 4.9rem;
+    color: #5d6363;
+}
+.container button{
+    font-size: 2.9rem;
+    padding: 13px 86px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:#c7d8c6;
+
+}
+
+.container button a{
+   
+    text-decoration: none;
+    color: black;
+
+}
+
+.container button:hover{
+ background-color: white;
+
+}
+.container .btn{
+    font-size: 2.9rem;
+    padding: 10px 69px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color:#c7d8c6;
+}
+
+footer{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 10vh;
+    padding: 18px ;
+    background-color: #5d6363;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer p{
+    font-size: 1.2rem;
+}
+/* end index2 */
+
+/* start index1 */
+#backpage{
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+#backpage a i{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+.lern-game{
+    /* border: 3px solid rgb(21, 255, 0); */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.lern-game .title{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+}
+
+.lern-game .text{
+    width: 96%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.lern-game .text h3{
+    font-size: 1.4rem;
+}
+
+.lern-game .text p{
+    font-size: 1.2rem;
+}
+.lern-game .text ol{
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+/* end index1 */
+@media screen and (max-width: 767px) {
+    .container h1{
+        font-size: 3rem;
+    }
+    .container button{
+        padding: 12px 86px;
+    }
+    .container .btn{
+        padding: 12px 60px;
+
+    }
+
+    .lern-game {
+        height: 170vh;
+    }
+
+    .flex1{
+        
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center  ;
+        gap: 30px;
+    }
+    section{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    form{
+        height: 330vh;
+        margin-top: 38px;
+    }
+    body{
+        height: 313vh;
+        object-fit: cover;
+        background-position-x: center;
+    }
+    #value{
+        font-size: 45px;
+    }
+    .check_button{
+        height: 19vh;
+    }
+}
+
+
+@media screen and (min-width: 767px) and (max-width:992px) {
+
+    .container h1{
+        font-size: 3rem;
+
+    }
+    .container button{
+        padding: 12px 86px;
+    }
+    .container .btn{
+        padding: 12px 60px;
+
+    }
+
+    .flex1{
+        
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content:center  ;
+        gap: 90px;
+    }
+    section{
+        width: 36%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    form{
+        /* height: 130vh; */
+    }
+    body{
+        height: 200vh;
+        object-fit: cover;
+        background-position-x: center;
+    }
+    #value{
+        font-size: 45px;
+    }
+    .check_button{
+        height: 19vh;
+    }
+   
+}
+
+
+@media screen and (min-width: 992px) and (max-width:1024px) {
+    .container h1{
+        font-size: 3rem;
+
+    }
+    .container button{
+        padding: 12px 86px;
+    }
+    .container .btn{
+        padding: 12px 60px;
+
+    }
+    .flex1{
+        
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content:center  ;
+        gap: 156px;
+    }
+    section{
+        width: 36%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    form{
+        /* height: 130vh; */
+    }
+    body{
+        height: 200vh;
+        object-fit: cover;
+        background-position-x: center;
+    }
+    #value{
+        font-size: 45px;
+    }
+    .check_button{
+        height: 19vh;
+    }
+}
