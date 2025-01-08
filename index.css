@@ -117,7 +117,7 @@ font-size: 48px;
 }
 .container button{
     font-size: 2.9rem;
-    padding: 13px 86px;
+    padding: 4px 61px;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -137,12 +137,12 @@ font-size: 48px;
 
 }
 .container .btn{
-    font-size: 2.9rem;
-    padding: 10px 69px;
+    font-size: 2.8rem;
+    padding: 7px 49px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background-color:#c7d8c6;
+    background-color: #c7d8c6;
 }
 
 footer{
@@ -152,6 +152,8 @@ footer{
     padding: 18px ;
     background-color: #5d6363;
     display: flex;
+    align-items: center;
+    gap: 2.5px;
     justify-content: center;
     
 }
@@ -215,10 +217,13 @@ footer p{
         font-size: 3rem;
     }
     .container button{
-        padding: 12px 86px;
+        padding: 3px 46px;
+    }
+    .container button a{
+        font-size: 42px;
     }
     .container .btn{
-        padding: 12px 60px;
+        padding: 6px 25px;
 
     }
 
@@ -267,7 +272,10 @@ footer p{
 
     }
     .container button{
-        padding: 12px 86px;
+        padding: 3px 46px;
+    }
+    .container button a{
+        font-size: 42px;
     }
     .container .btn{
         padding: 12px 60px;
