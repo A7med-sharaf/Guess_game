@@ -32,7 +32,7 @@ form{
 
 form .box1{
 width: 100%;
-height: 200vh;
+/* height: 200vh; */
 border: 1px solid rgb(234, 255, 0);
 background-color: rgb(199 216 198);
 border-radius: 3px;
@@ -83,6 +83,7 @@ border-radius: 3px;
 }
 .check_button{
     height: 17vh;
+    height: 1.2rem;
 }
 
 .navbar{
@@ -267,6 +268,7 @@ footer p{
     }
     .check_button{
         height: 19vh;
+        height: 1rem;
     }
 }
 
@@ -316,6 +318,7 @@ footer p{
     }
     .check_button{
         height: 19vh;
+        height: 1rem;
     }
    
 }
@@ -361,5 +364,6 @@ footer p{
     }
     .check_button{
         height: 19vh;
+        height: 1rem;
     }
 }
