@@ -19,7 +19,7 @@ body{
     gap: 15px;
 }
 form{
-    /* border: 1px solid red; */
+    border: 1px solid red;
     width: 100%;
     height: 200vh;
     display: flex;
@@ -38,7 +38,7 @@ background-color: rgb(199 216 198);
 border-radius: 3px;
 
 }
-section{
+.section{
     /* border: 1px solid blue; */
     width: 24%;
     height: 230px;
@@ -241,7 +241,8 @@ footer p{
         justify-content:center  ;
         gap: 30px;
     }
-    section{
+    .section{
+        border: 1px solid green;
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -251,9 +252,15 @@ footer p{
         border: 1px solid red;
         height: 330vh;
         margin-top: 38px;
+        padding: 23px 0px;
     }
     body{
        border: 1px solid blue;
+       display: flex;
+       padding: 15px;
+       flex-direction: column;
+       align-items: center;
+       gap: 15px;
     }
     #value{
         font-size: 45px;
@@ -290,7 +297,7 @@ footer p{
         justify-content:center  ;
         gap: 90px;
     }
-    section{
+    .section{
         width: 36%;
         display: flex;
         flex-direction: column;
@@ -335,7 +342,7 @@ footer p{
         justify-content:center  ;
         gap: 156px;
     }
-    section{
+    .section{
         width: 36%;
         display: flex;
         flex-direction: column;
