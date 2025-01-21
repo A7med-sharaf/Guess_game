@@ -6,7 +6,8 @@
 }
 
 body{
-    height: 100vh;
+    width: 100%;
+    height: 180vh;
     background-image: url(./photo/Preview\ and\ Download\ Wallpaper\ -\ HD\ Wallpapers\ -\ Desktop\ Background\ Images.png);
     background-position-x: contain;
     /* object-fit: contain; */
