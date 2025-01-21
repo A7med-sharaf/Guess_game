@@ -248,15 +248,12 @@ footer p{
         
     }
     form{
-        
+        border: 1px solid red;
         height: 330vh;
         margin-top: 38px;
     }
     body{
-        /* border: 1px solid red; */
-        height:100vh;
-        object-fit: cover;
-        background-position-x: center;
+       border: 1px solid blue;
     }
     #value{
         font-size: 45px;
