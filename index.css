@@ -248,6 +248,7 @@ footer p{
         
     }
     form{
+        
         height: 330vh;
         margin-top: 38px;
     }
@@ -298,9 +299,9 @@ footer p{
         flex-direction: column;
         
     }
-    form{
-        /* height: 130vh; */
-    }
+    /* form{
+    
+    } */
     body{
         height: 200vh;
         object-fit: cover;
@@ -343,9 +344,9 @@ footer p{
         flex-direction: column;
         
     }
-    form{
-        /* height: 130vh; */
-    }
+    /* form{
+       
+    } */
     body{
         height: 200vh;
         object-fit: cover;
