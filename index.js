@@ -4,6 +4,7 @@ let house=document.querySelector("fa-house")
 const form=document.querySelector("form")
 let h=document.querySelector("h1")
 form.addEventListener('submit', (e)=>{
+    
     let x=0
     
     e.preventDefault()
@@ -23,11 +24,10 @@ form.addEventListener('submit', (e)=>{
     
     
 
-
 })
 
 function reload(){
-     window.location.reload()
+    return window.location.reload()
 }
 
 

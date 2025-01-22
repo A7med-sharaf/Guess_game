@@ -270,11 +270,8 @@ footer p{
     }
     body{
         
+        height: 100vh;
         border: 1px solid rgb(208, 255, 0);
-        height: 260vh;
-
-     
-       
     }
     #value{
         font-size: 45px;
