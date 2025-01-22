@@ -255,6 +255,9 @@ footer p{
         flex-direction: column;
         
     }
+    .navbar{
+        margin-top: 10px;
+    }
     form{
         /* position: relative; */
         border: 1px solid red;
@@ -268,7 +271,7 @@ footer p{
     body{
         
         border: 1px solid rgb(208, 255, 0);
-        height: 100vh;
+        height: 260vh;
 
      
        
