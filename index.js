@@ -17,7 +17,7 @@ form.addEventListener('submit', (e)=>{
               
      }
     }
-    window.location.href="#value"
+    window.location.href="#up"
    
     h.innerHTML=x
     
