@@ -256,6 +256,7 @@ footer p{
         padding: 23px 0px;
     }
     body{
+        height: 100vh;
        border: 1px solid blue;
        display: flex;
        padding: 15px;
@@ -269,6 +270,7 @@ footer p{
     .check_button{
         height: 19vh;
         height: 1rem;
+        text-align: center;
     }
 }
 
