@@ -6,6 +6,7 @@
 }
 
 body{
+    border: 1px solid rgb(208, 255, 0);
     width: 100%;
     height: 180vh;
     background-image: url(./photo/Preview\ and\ Download\ Wallpaper\ -\ HD\ Wallpapers\ -\ Desktop\ Background\ Images.png);
@@ -19,6 +20,7 @@ body{
     gap: 15px;
 }
 form{
+    position: relative;
     border: 1px solid red;
     width: 100%;
     height: 200vh;
@@ -31,15 +33,16 @@ form{
 }
 
 form .box1{
+    /* position: relative; */
 width: 100%;
-/* height: 200vh; */
-border: 1px solid rgb(234, 255, 0);
+/* height: 100vh; */
+border: 1px solid rgb(111, 255, 0);
 background-color: rgb(199 216 198);
 border-radius: 3px;
 
 }
 .section{
-    border: 1px solid blue;
+     border: 1px solid blue;
     width: 24%;
     height: 230px;
     display: flex;
@@ -61,7 +64,7 @@ border-radius: 3px;
 }
 
 .flex1{
-    /* border: 1px solid rgb(255, 0, 195); */
+    border: 1px solid rgb(255, 0, 195);
     width: 90%;
     display: flex;
     justify-content: space-around;
@@ -257,8 +260,9 @@ footer p{
         padding: 23px 0px;
     }
     body{
-        height: 100vh;
-       border: 1px solid blue;
+        /* height: 100vh; */
+        border: 1px solid rgb(208, 255, 0);
+
        display: flex;
        padding: 15px;
        flex-direction: column;
