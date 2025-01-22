@@ -32,18 +32,19 @@ form{
 
 form .box1{
 width: 100%;
-/* height: 200vh; */
+height: 200vh;
 border: 1px solid rgb(234, 255, 0);
 background-color: rgb(199 216 198);
 border-radius: 3px;
 
 }
 .section{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     width: 24%;
     height: 230px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 12px;
    
 }
