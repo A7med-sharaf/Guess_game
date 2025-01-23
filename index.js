@@ -2,17 +2,17 @@
 
 let house=document.querySelector("fa-house")
 const form=document.querySelector("form")
-let h=document.querySelector("h1")
+let NumberOfguess=document.querySelector("h1")
 form.addEventListener('submit', (e)=>{
     
-    let x=0
+    let valueOfnumber=0
     
     e.preventDefault()
     let box=document.querySelectorAll('[type="checkbox"]')
     console.log()
     for(let i=0; i<box.length;i++){
         if(box[i].checked == true){
-        x+=  Number(box[i].value)
+            valueOfnumber+=  Number(box[i].value)
             
             
               
@@ -20,7 +20,7 @@ form.addEventListener('submit', (e)=>{
     }
     window.location.href="#up"
    
-    h.innerHTML=x
+    NumberOfguess.innerHTML=valueOfnumber
     
     
 
